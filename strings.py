@@ -1,7 +1,7 @@
 # Date: 2021-11-08
 # Time: 16:19
 # Author: Brandon Kruger
-# Ep 017
+# Ep 017, 022
 
 # Double quotes
 print("Today is a good day to learn Python")
@@ -29,5 +29,13 @@ print(age)
 
 print(type(greeting))
 print(type(age))
+
+age_in_words = "2 years"
+print(name + " is " + age + " years old")
+print(type(age))
+
+
+
+
 
 
