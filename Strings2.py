@@ -1,36 +1,33 @@
-# Date: 2021-11-09
+# Date Created: 2021-11-09
 # Time: 08:47, 12:34
 # Author: Brandon Kruger
-# Ep 026,027
+# Ep 026,027,028
 
 #         01234567801234
 parrot = "Norwegian Blue"
 
-print(parrot)
+# The slice will include up to but not including what you specify in that range.
+print(parrot[0:6])  # Norweg
+print(parrot[3:5])
+print(parrot[0:9])
+print(parrot[:9])
+print(parrot[10:14])
 
-print(parrot[3])
-print(parrot[4])
-print()
-print(parrot[3])
-print(parrot[6])
-print(parrot[8])
+print(parrot[10:])
 
-print()
+print(parrot[:6] + parrot[6:])
 
-# Negative indexing in Strings (Subtract the length (14) from the positive numbers).
-print(parrot[3 - 14])
-print(parrot[4 - 14])
-print()
-print(parrot[3 - 14])
-print(parrot[6 - 14])
-print(parrot[8 - 14])
+print(parrot[:])
 
-# Simply typed as.
-print(parrot[-11])
-print(parrot[-1])
-print()
-print(parrot[-11])
-print(parrot[-8])
-print(parrot[-6])
+# Mini challenge
 
+letters = "abcdefghijklmnopqrstuvwxyz"
+
+print(letters[0:26])
+
+# First half of letters
+print(letters[:13])
+
+# Last half of letters
+print(letters[13:])
 
